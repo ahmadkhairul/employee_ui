@@ -1,0 +1,502 @@
+[
+  {
+    "id": 0,
+    "name": "Brennan Kidd",
+    "email": "brennankidd@equitox.com",
+    "level": "middle",
+    "department": "Marketing",
+    "joined_at": "2024-02-28",
+    "status": "active",
+    "location": "Wadsworth, Svalbard and Jan Mayen Islands"
+  },
+  {
+    "id": 1,
+    "name": "Mcfarland Mcbride",
+    "email": "mcfarlandmcbride@equitox.com",
+    "level": "senior",
+    "department": "HR",
+    "joined_at": "2021-09-16",
+    "status": "active",
+    "location": "Kieler, Bolivia"
+  },
+  {
+    "id": 2,
+    "name": "Melissa Soto",
+    "email": "melissasoto@equitox.com",
+    "level": "associate",
+    "department": "HR",
+    "joined_at": "2023-10-14",
+    "status": "inactive",
+    "location": "Bluffview, Bangladesh"
+  },
+  {
+    "id": 3,
+    "name": "Bates Willis",
+    "email": "bateswillis@equitox.com",
+    "level": "vice president",
+    "department": "HR",
+    "joined_at": "2023-09-25",
+    "status": "inactive",
+    "location": "Caron, New Zealand"
+  },
+  {
+    "id": 4,
+    "name": "Sherrie Lee",
+    "email": "sherrielee@equitox.com",
+    "level": "junior",
+    "department": "Engineering",
+    "joined_at": "2022-06-15",
+    "status": "active",
+    "location": "Chumuckla, Mayotte"
+  },
+  {
+    "id": 5,
+    "name": "Boyd Berry",
+    "email": "boydberry@equitox.com",
+    "level": "junior",
+    "department": "Engineering",
+    "joined_at": "2020-08-21",
+    "status": "inactive",
+    "location": "Martinsville, Belarus"
+  },
+  {
+    "id": 6,
+    "name": "Tami Conner",
+    "email": "tamiconner@equitox.com",
+    "level": "associate",
+    "department": "Product",
+    "joined_at": "2023-02-04",
+    "status": "active",
+    "location": "Benson, Suriname"
+  },
+  {
+    "id": 7,
+    "name": "Bonner Becker",
+    "email": "bonnerbecker@equitox.com",
+    "level": "middle",
+    "department": "Sales",
+    "joined_at": "2021-07-24",
+    "status": "inactive",
+    "location": "Laurelton, Cape Verde"
+  },
+  {
+    "id": 8,
+    "name": "Mcbride Rojas",
+    "email": "mcbriderojas@equitox.com",
+    "level": "middle",
+    "department": "Marketing",
+    "joined_at": "2020-07-27",
+    "status": "inactive",
+    "location": "Rivers, Switzerland"
+  },
+  {
+    "id": 9,
+    "name": "Becker Meyer",
+    "email": "beckermeyer@equitox.com",
+    "level": "middle",
+    "department": "Engineering",
+    "joined_at": "2023-05-31",
+    "status": "inactive",
+    "location": "Iberia, Costa Rica"
+  },
+  {
+    "id": 10,
+    "name": "Hallie Gilbert",
+    "email": "halliegilbert@equitox.com",
+    "level": "senior",
+    "department": "Marketing",
+    "joined_at": "2025-03-31",
+    "status": "active",
+    "location": "Eggertsville, Zimbabwe"
+  },
+  {
+    "id": 11,
+    "name": "Rosetta Bowman",
+    "email": "rosettabowman@equitox.com",
+    "level": "senior",
+    "department": "Sales",
+    "joined_at": "2024-10-16",
+    "status": "inactive",
+    "location": "Jacksonburg, Lesotho"
+  },
+  {
+    "id": 12,
+    "name": "Isabella Hull",
+    "email": "isabellahull@equitox.com",
+    "level": "associate",
+    "department": "Marketing",
+    "joined_at": "2025-03-26",
+    "status": "inactive",
+    "location": "Lloyd, Anguilla"
+  },
+  {
+    "id": 13,
+    "name": "Jeannine Calderon",
+    "email": "jeanninecalderon@equitox.com",
+    "level": "senior",
+    "department": "Engineering",
+    "joined_at": "2023-08-01",
+    "status": "inactive",
+    "location": "Denio, Burundi"
+  },
+  {
+    "id": 14,
+    "name": "Christine Pugh",
+    "email": "christinepugh@equitox.com",
+    "level": "associate",
+    "department": "Marketing",
+    "joined_at": "2022-03-18",
+    "status": "inactive",
+    "location": "Bath, Turkmenistan"
+  },
+  {
+    "id": 15,
+    "name": "Amelia Carpenter",
+    "email": "ameliacarpenter@equitox.com",
+    "level": "junior",
+    "department": "Marketing",
+    "joined_at": "2024-09-30",
+    "status": "inactive",
+    "location": "Takilma, Sierra Leone"
+  },
+  {
+    "id": 16,
+    "name": "Brenda Taylor",
+    "email": "brendataylor@equitox.com",
+    "level": "junior",
+    "department": "Sales",
+    "joined_at": "2024-08-25",
+    "status": "inactive",
+    "location": "Strykersville, Yugoslavia"
+  },
+  {
+    "id": 17,
+    "name": "Cathy Kennedy",
+    "email": "cathykennedy@equitox.com",
+    "level": "junior",
+    "department": "Marketing",
+    "joined_at": "2019-01-19",
+    "status": "inactive",
+    "location": "Emison, Greece"
+  },
+  {
+    "id": 18,
+    "name": "Noelle Benson",
+    "email": "noellebenson@equitox.com",
+    "level": "associate",
+    "department": "Sales",
+    "joined_at": "2025-04-09",
+    "status": "active",
+    "location": "Elfrida, Russian Federation"
+  },
+  {
+    "id": 19,
+    "name": "Rutledge Preston",
+    "email": "rutledgepreston@equitox.com",
+    "level": "senior",
+    "department": "Engineering",
+    "joined_at": "2023-04-19",
+    "status": "inactive",
+    "location": "Echo, Uruguay"
+  },
+  {
+    "id": 20,
+    "name": "Carter Cameron",
+    "email": "cartercameron@equitox.com",
+    "level": "vice president",
+    "department": "Engineering",
+    "joined_at": "2018-05-20",
+    "status": "active",
+    "location": "Bradenville, Germany"
+  },
+  {
+    "id": 21,
+    "name": "Park Ramsey",
+    "email": "parkramsey@equitox.com",
+    "level": "vice president",
+    "department": "Marketing",
+    "joined_at": "2018-04-28",
+    "status": "inactive",
+    "location": "Sunbury, Libya"
+  },
+  {
+    "id": 22,
+    "name": "Anita Burt",
+    "email": "anitaburt@equitox.com",
+    "level": "middle",
+    "department": "Product",
+    "joined_at": "2021-11-11",
+    "status": "inactive",
+    "location": "Nogal, Greenland"
+  },
+  {
+    "id": 23,
+    "name": "Tonya Watts",
+    "email": "tonyawatts@equitox.com",
+    "level": "senior",
+    "department": "Sales",
+    "joined_at": "2020-04-21",
+    "status": "inactive",
+    "location": "Oceola, Mozambique"
+  },
+  {
+    "id": 24,
+    "name": "Jordan Nielsen",
+    "email": "jordannielsen@equitox.com",
+    "level": "junior",
+    "department": "Product",
+    "joined_at": "2020-10-25",
+    "status": "active",
+    "location": "Brady, Pakistan"
+  },
+  {
+    "id": 25,
+    "name": "Albert Boyer",
+    "email": "albertboyer@equitox.com",
+    "level": "associate",
+    "department": "Engineering",
+    "joined_at": "2021-01-16",
+    "status": "inactive",
+    "location": "Lopezo, Korea (North)"
+  },
+  {
+    "id": 26,
+    "name": "Dawn Sparks",
+    "email": "dawnsparks@equitox.com",
+    "level": "associate",
+    "department": "Product",
+    "joined_at": "2019-03-15",
+    "status": "inactive",
+    "location": "Fivepointville, British Indian Ocean Territory"
+  },
+  {
+    "id": 27,
+    "name": "Deloris Blackburn",
+    "email": "delorisblackburn@equitox.com",
+    "level": "vice president",
+    "department": "Engineering",
+    "joined_at": "2024-01-07",
+    "status": "inactive",
+    "location": "Grenelefe, Azerbaijan"
+  },
+  {
+    "id": 28,
+    "name": "Allen Galloway",
+    "email": "allengalloway@equitox.com",
+    "level": "associate",
+    "department": "HR",
+    "joined_at": "2019-05-12",
+    "status": "inactive",
+    "location": "Wright, Cook Islands"
+  },
+  {
+    "id": 29,
+    "name": "Andrews Crosby",
+    "email": "andrewscrosby@equitox.com",
+    "level": "associate",
+    "department": "HR",
+    "joined_at": "2019-02-28",
+    "status": "active",
+    "location": "Moraida, Cayman Islands"
+  },
+  {
+    "id": 30,
+    "name": "Kellie Ramirez",
+    "email": "kellieramirez@equitox.com",
+    "level": "junior",
+    "department": "Engineering",
+    "joined_at": "2020-05-12",
+    "status": "inactive",
+    "location": "Nile, Wallis and Futuna Islands"
+  },
+  {
+    "id": 31,
+    "name": "Burke Nash",
+    "email": "burkenash@equitox.com",
+    "level": "senior",
+    "department": "HR",
+    "joined_at": "2019-10-21",
+    "status": "active",
+    "location": "Eureka, Hong Kong"
+  },
+  {
+    "id": 32,
+    "name": "Hodge Mayer",
+    "email": "hodgemayer@equitox.com",
+    "level": "associate",
+    "department": "Marketing",
+    "joined_at": "2021-06-29",
+    "status": "active",
+    "location": "Mooresburg, Pitcairn"
+  },
+  {
+    "id": 33,
+    "name": "Ingram Mcmillan",
+    "email": "ingrammcmillan@equitox.com",
+    "level": "senior",
+    "department": "Sales",
+    "joined_at": "2021-08-25",
+    "status": "active",
+    "location": "Grantville, Ghana"
+  },
+  {
+    "id": 34,
+    "name": "Parrish Horn",
+    "email": "parrishhorn@equitox.com",
+    "level": "vice president",
+    "department": "Sales",
+    "joined_at": "2020-01-15",
+    "status": "inactive",
+    "location": "Ahwahnee, Singapore"
+  },
+  {
+    "id": 35,
+    "name": "Hunt Woodward",
+    "email": "huntwoodward@equitox.com",
+    "level": "middle",
+    "department": "HR",
+    "joined_at": "2018-12-27",
+    "status": "active",
+    "location": "Edneyville, Cote D'Ivoire (Ivory Coast)"
+  },
+  {
+    "id": 36,
+    "name": "Florine Kaufman",
+    "email": "florinekaufman@equitox.com",
+    "level": "vice president",
+    "department": "Marketing",
+    "joined_at": "2023-12-18",
+    "status": "active",
+    "location": "Iola, New Caledonia"
+  },
+  {
+    "id": 37,
+    "name": "Kasey Espinoza",
+    "email": "kaseyespinoza@equitox.com",
+    "level": "middle",
+    "department": "Product",
+    "joined_at": "2025-01-01",
+    "status": "inactive",
+    "location": "Aurora, Madagascar"
+  },
+  {
+    "id": 38,
+    "name": "Toni Mosley",
+    "email": "tonimosley@equitox.com",
+    "level": "associate",
+    "department": "Marketing",
+    "joined_at": "2019-09-04",
+    "status": "inactive",
+    "location": "Leeper, Northern Mariana Islands"
+  },
+  {
+    "id": 39,
+    "name": "Conrad Mclean",
+    "email": "conradmclean@equitox.com",
+    "level": "middle",
+    "department": "Engineering",
+    "joined_at": "2022-10-21",
+    "status": "active",
+    "location": "Bowmansville, Syria"
+  },
+  {
+    "id": 40,
+    "name": "Joseph Goff",
+    "email": "josephgoff@equitox.com",
+    "level": "junior",
+    "department": "Engineering",
+    "joined_at": "2019-07-01",
+    "status": "active",
+    "location": "Highland, Korea (South)"
+  },
+  {
+    "id": 41,
+    "name": "Alba Wolfe",
+    "email": "albawolfe@equitox.com",
+    "level": "junior",
+    "department": "Sales",
+    "joined_at": "2024-05-11",
+    "status": "inactive",
+    "location": "Floris, Qatar"
+  },
+  {
+    "id": 42,
+    "name": "Vinson Roth",
+    "email": "vinsonroth@equitox.com",
+    "level": "junior",
+    "department": "Sales",
+    "joined_at": "2021-05-05",
+    "status": "active",
+    "location": "Freetown, Burkina Faso"
+  },
+  {
+    "id": 43,
+    "name": "Buckley Reeves",
+    "email": "buckleyreeves@equitox.com",
+    "level": "vice president",
+    "department": "HR",
+    "joined_at": "2024-06-04",
+    "status": "active",
+    "location": "Wiscon, Tanzania"
+  },
+  {
+    "id": 44,
+    "name": "Walter Rios",
+    "email": "walterrios@equitox.com",
+    "level": "middle",
+    "department": "Sales",
+    "joined_at": "2019-09-13",
+    "status": "inactive",
+    "location": "Dowling, Guam"
+  },
+  {
+    "id": 45,
+    "name": "Rochelle Barker",
+    "email": "rochellebarker@equitox.com",
+    "level": "middle",
+    "department": "HR",
+    "joined_at": "2022-07-05",
+    "status": "inactive",
+    "location": "Chaparrito, Falkland Islands (Malvinas)"
+  },
+  {
+    "id": 46,
+    "name": "Higgins Nelson",
+    "email": "higginsnelson@equitox.com",
+    "level": "middle",
+    "department": "HR",
+    "joined_at": "2024-05-30",
+    "status": "active",
+    "location": "Vicksburg, Saint Vincent and The Grenadines"
+  },
+  {
+    "id": 47,
+    "name": "Christensen Stephens",
+    "email": "christensenstephens@equitox.com",
+    "level": "middle",
+    "department": "Product",
+    "joined_at": "2020-04-17",
+    "status": "active",
+    "location": "Mulberry, Tokelau"
+  },
+  {
+    "id": 48,
+    "name": "Tammie Gregory",
+    "email": "tammiegregory@equitox.com",
+    "level": "senior",
+    "department": "Product",
+    "joined_at": "2022-05-27",
+    "status": "inactive",
+    "location": "Sunwest, Cyprus"
+  },
+  {
+    "id": 49,
+    "name": "Padilla Booker",
+    "email": "padillabooker@equitox.com",
+    "level": "vice president",
+    "department": "Sales",
+    "joined_at": "2019-04-17",
+    "status": "inactive",
+    "location": "Weogufka, Kazakhstan"
+  }
+]

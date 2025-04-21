@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  padding: 2rem;
+  color: #333;
+}
+
+input[type="text"],
+select {
+  padding: 0.5rem 0.75rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+thead {
+  background-color: #3b82f6;
+  color: #fff;
+  text-align: left;
+}
+
+thead td {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+tbody td {
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+tbody tr:hover {
+  background-color: #e0f2fe;
+}
+
+td:first-child {
+  width: 3rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  table, thead, tbody, tr, td {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.75rem;
+  }
+
+  td {
+    position: relative;
+    padding-left: 50%;
+    font-size: 0.9rem;
+  }
+
+  td:before {
+    position: absolute;
+    left: 1rem;
+    top: 0.75rem;
+    font-weight: bold;
+    color: #6b7280;
+    white-space: nowrap;
+  }
+
+  td:nth-child(1)::before { content: "No."; }
+  td:nth-child(2)::before { content: "Name"; }
+  td:nth-child(3)::before { content: "Email"; }
+  td:nth-child(4)::before { content: "Level"; }
+  td:nth-child(5)::before { content: "Department"; }
+  td:nth-child(6)::before { content: "Joined At"; }
+  td:nth-child(7)::before { content: "Status"; }
+  td:nth-child(8)::before { content: "Location"; }
+}
