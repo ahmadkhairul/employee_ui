@@ -66,6 +66,7 @@ function App() {
 
   return (
     <>
+      <h1>Employee List</h1>
       <input
         type="text"
         name="search"
