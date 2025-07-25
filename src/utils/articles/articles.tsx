@@ -1,4 +1,6 @@
-function Articles({ articles }) {
+import { ArticleProps } from "./app";
+
+function Articles({ articles }: ArticleProps) {
   return (
     <div className="card w-50 mx-auto">
       <table>

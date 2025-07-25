@@ -12,6 +12,7 @@ body {
 }
 
 input[type="text"],
+input[type="number"],
 select {
   padding: 0.5rem 0.75rem;
   margin-right: 1rem;
@@ -21,6 +22,7 @@ select {
 }
 
 input[type="text"]:focus,
+input[type="number"]:focus,
 select:focus {
   outline: none;
   border-color: #3b82f6;
@@ -43,7 +45,7 @@ thead {
   text-align: left;
 }
 
-thead td {
+thead th{
   padding: 0.75rem 1rem;
   font-weight: 600;
   font-size: 0.95rem;

@@ -72,14 +72,14 @@ const App = () => {
           <table>
             <thead>
               <tr>
-                <td>No.</td>
-                <td>Name</td>
-                <td>Email</td>
-                <td>Level</td>
-                <td>Department</td>
-                <td>Joined At</td>
-                <td>Status</td>
-                <td>Location</td>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Level</th>
+                <th>Department</th>
+                <th>Joined At</th>
+                <th>Status</th>
+                <th>Location</th>
               </tr>
             </thead>
             <tbody>

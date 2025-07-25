@@ -38,6 +38,6 @@ const ARTICLES = [
   },
 ];
 
-export function Article() {
+export default function Article() {
   return <App articles={ARTICLES} />;
 }

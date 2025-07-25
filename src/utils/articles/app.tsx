@@ -1,24 +1,5 @@
 import { useEffect, useState } from "react";
-import "./App.css";
-import "h8k-components";
-
-import Articles from "./Articles";
-
-const title = "Sorting Articles";
-
-// export function fizzBuzz(n) {
-//   for (let i = 1; i <= n; i++) {
-//     if (i % 15 === 0) {
-//       console.log("FizzBuzz");
-//     } else if (i % 5 === 0) {
-//       console.log("Buzz");
-//     } else if (i % 3 === 0) {
-//       console.log("Fizz");
-//     } else {
-//       console.log(i);
-//     }
-//   }
-// }
+import Articles from "./articles";
 
 // const [sort, setSort] = useState('upvotes')
 
@@ -48,16 +29,26 @@ const title = "Sorting Articles";
 //     setData(currentData)
 // }
 
-function App({ articles }) {
-  const [data, setData] = useState([]);
-  const [sort, setSort] = useState("upvotes");
+type Article = {
+  title: string;
+  upvotes: number;
+  date: number | string;
+};
+
+export interface ArticleProps {
+  articles: Article[];
+}
+
+function App({ articles }: ArticleProps) {
+  const [data, setData] = useState<Article[]>([]);
+  const [sort, setSort] = useState<"upvotes" | "date">("upvotes");
   useEffect(() => {
-    let currentData = [...articles];
+    const currentData = [...articles];
     currentData.sort((a, b) => {
       if (sort === "upvotes") {
         return b.upvotes - a.upvotes;
       } else {
-        return new Date(b.date) - new Date(a.date);
+        return new Date(b.date).getTime() - new Date(a.date).getTime();
       }
     });
     setData(currentData);
@@ -65,7 +56,7 @@ function App({ articles }) {
 
   return (
     <div>
-      <h8k-navbar header={title}></h8k-navbar>
+      <nav>Sorting Articles</nav>
       <div className="layout-row align-items-center justify-content-center my-20 navigation">
         <label className="form-hint mb-0 text-uppercase font-weight-light">
           Sort By

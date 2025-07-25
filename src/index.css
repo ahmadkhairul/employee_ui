@@ -53,6 +53,17 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+button.active-page {
+  background-color: #2563eb;
+  color: white;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  margin-top: 1em;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
